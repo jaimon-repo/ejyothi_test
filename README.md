@@ -1,18 +1,14 @@
 # CodeIgniter 4 Framework
 
-## What is CodeIgniter?
+## Source code
+Test project built based on codeIgniter 4 technology
+In order to run on local server please change root path in app/Config/App.php
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible, and secure. 
-More information can be found at the [official site](http://codeigniter.com).
+## Data base
+To connect to data base please configure app/Config/Database.php
+and change 'hostname' => '','username' => '','password' => '',
+ 'database' => ''
 
-This repository holds the distributable version of the framework,
-including the user guide. It has been built from the 
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/). 
 
 
 ## Important Change with index.php
@@ -36,11 +32,6 @@ FEATURE REQUESTS.
 This repository is a "distribution" one, built by our release preparation script. 
 Problems with it can be raised on our forum, or as issues in the main repository.
 
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/contributing.md) section in the development repository.
 
 ## Server Requirements
 
